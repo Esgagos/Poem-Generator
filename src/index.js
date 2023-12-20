@@ -1,1 +1,1 @@
-alert("Welcom to the poem generator");
+console.log("Welcom to the poem generator");
