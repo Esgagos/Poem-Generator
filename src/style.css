@@ -1,3 +1,60 @@
-h1 {
-  color: blueviolet;
+.container {
+  display: table;
+  margin: 100px auto;
+  width: 38vw;
+}
+footer a {
+  text-decoration-line: none;
+  color: cadetblue;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url("images/third-image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: aliceblue;
+  padding: 1.5vw;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  text-align: center;
+  font-size: 1.5em;
+}
+main {
+  background-color: white;
+  padding-top: 28px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+main input {
+  width: 20vw;
+  padding: 5px 0;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.btn-search {
+  width: 5vw;
+  margin-left: 5px;
+  background-color: cadetblue;
+  color: #f8f6fc;
+}
+main p {
+  padding: 20px 4vw 48px 4vw;
+  font-size: 1em;
+  line-height: 1.5;
+  font-family: sans-serif;
+}
+body {
+  background-color: #f8f6fc;
+}
+footer {
+  font-size: 1em;
+  text-align: center;
 }
