@@ -55,9 +55,19 @@ body {
   background-color: #f8f6fc;
 }
 footer {
+  margin-top: 1.5vw;
   font-size: 1em;
   text-align: center;
 }
 .word-input {
-  padding: 10px;
+  padding: 15px;
+}
+#poem p {
+  padding: 0 3vw;
+  line-height: 1.5;
+  text-align: center;
+}
+.poem {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
