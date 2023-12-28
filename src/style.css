@@ -24,11 +24,14 @@ header {
 main {
   background-color: white;
   padding-top: 28px;
+  padding-bottom: 30px;
   text-align: center;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
     rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+
+  margin-top: 20px;
 }
 
 main input {
@@ -46,7 +49,6 @@ main input {
   color: #f8f6fc;
 }
 main p {
-  padding: 20px 4vw 48px 4vw;
   font-size: 1em;
   line-height: 1.5;
   font-family: Georgia, "Times New Roman", Times, serif;
@@ -64,10 +66,18 @@ footer {
 }
 #poem p {
   padding: 0 3vw;
-  line-height: 1.5;
   text-align: center;
 }
 .poem {
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 3vw;
+  margin-bottom: 10px;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+.blink {
+  animation: blink 1.5s step-start 0s infinite;
 }
